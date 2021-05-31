@@ -69,7 +69,7 @@
             "writable": true
         },
         {
-            "@type": "Property",
+            "@type": ["Property", "Power"],
             "name": "PowerOutput",
             "comment": "The current power generated and provided to the electrical Network.",
             "schema": "float",

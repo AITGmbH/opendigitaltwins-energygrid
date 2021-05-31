@@ -24,19 +24,19 @@
                     },
                     {
                         "name": "endCustomerNetPrice",
-                        "displayName": "endCustomerPrice",
-                        "enumValue": "endCustomerPrice"
+                        "displayName": "endCustomerNetPrice",
+                        "enumValue": "endCustomerNetPrice"
                     }
                 ]
             },
             "writable": true
         },
         {
-            "@type": "Property",
+            "@type": ["Property", "Energy"],
             "name": "rate",
-            "comment": "rate of electrical work in kwh",
+            "comment": "rate of electrical work in euro/kwh",
             "schema": "float",
-            "unit": "euro/kwh",
+            "unit": "kilowattHour",
             "writable": true
         }
     ],
