@@ -9,16 +9,14 @@
             "name": "powerSupply",
             "comment": "the currently provided power of the supplier to the energy grid.",
             "schema": "float",
-            "unit": "watt",
-            "writable": true
+            "unit": "watt"
         },
         {
             "@type": ["Telemetry", "Power"],
             "name": "powerConsumption",
             "comment": "the currently consumed power of the supplier from the energy grid.",
             "schema": "float",
-            "unit": "watt",
-            "writable": true
+            "unit": "watt"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

@@ -73,8 +73,7 @@
             "name": "PowerOutput",
             "comment": "The active power currently generated and provided to the electrical network.",
             "schema": "float",
-            "unit": "watt",
-            "writable": true
+            "unit": "watt"
         },
         {
             "@type": "Property",

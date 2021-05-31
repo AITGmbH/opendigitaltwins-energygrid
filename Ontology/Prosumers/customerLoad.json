@@ -15,7 +15,6 @@
       "@type": ["Telemetry", "Power"],
       "name": "p",
       "description": "Active power of the load. Load sign convention is used, i.e. positive sign means flow out from a node. For voltage dependent loads the value is at rated voltage. Starting value for a steady state solution. Default: 0.0",
-      "writable": true,
       "unit": "watt",
       "schema": "double"
     },
@@ -31,7 +30,6 @@
       "@type": ["Telemetry", "Power"],
       "name": "q",
       "description": "Reactive power of the load. Load sign convention is used, i.e. positive sign means flow out from a node. For voltage dependent loads the value is at rated voltage. Starting value for a steady state solution. Default: 0.0",
-      "writable": true,
       "unit": "watt",
       "schema": "double"
     },
