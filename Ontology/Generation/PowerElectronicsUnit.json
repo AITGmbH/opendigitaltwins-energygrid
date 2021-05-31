@@ -20,7 +20,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Power"],
+            "@type": ["Telemetry", "Power"],
             "name": "PowerOutput",
             "comment": "The active power currently generated and provided to the electrical network.",
             "schema": "float",

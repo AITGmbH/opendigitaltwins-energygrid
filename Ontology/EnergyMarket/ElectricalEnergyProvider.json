@@ -5,7 +5,7 @@
     "comment": "A electrical energy provider that can sell or buy electrical energy.",
     "contents": [
         {
-            "@type": ["Property", "Power"],
+            "@type": ["Telemetry", "Power"],
             "name": "powerSupply",
             "comment": "the currently provided power of the supplier to the energy grid.",
             "schema": "float",
@@ -13,7 +13,7 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Power"],
+            "@type": ["Telemetry", "Power"],
             "name": "powerConsumption",
             "comment": "the currently consumed power of the supplier from the energy grid.",
             "schema": "float",
