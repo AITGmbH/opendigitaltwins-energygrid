@@ -20,6 +20,13 @@
             "writable": true
         },
         {
+            "@type": ["Telemetry", "Power"],
+            "name": "PowerOutput",
+            "comment": "The active power currently generated and provided to the electrical network.",
+            "schema": "float",
+            "unit": "watt"
+        },
+        {
             "@type": "Relationship",
             "name": "PowerElectronicsConnection",
             "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerElectronicsConnection;1",

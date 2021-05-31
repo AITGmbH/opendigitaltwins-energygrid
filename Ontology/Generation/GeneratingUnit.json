@@ -69,6 +69,13 @@
             "writable": true
         },
         {
+            "@type": ["Telemetry", "Power"],
+            "name": "PowerOutput",
+            "comment": "The active power currently generated and provided to the electrical network.",
+            "schema": "float",
+            "unit": "watt"
+        },
+        {
             "@type": "Property",
             "name": "shortPF",
             "comment": "Generating unit short term economic participation factor.",
