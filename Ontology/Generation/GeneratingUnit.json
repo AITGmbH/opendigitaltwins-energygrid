@@ -71,7 +71,7 @@
         {
             "@type": ["Property", "Power"],
             "name": "PowerOutput",
-            "comment": "The current power generated and provided to the electrical Network.",
+            "comment": "The active power currently generated and provided to the electrical network.",
             "schema": "float",
             "unit": "watt",
             "writable": true

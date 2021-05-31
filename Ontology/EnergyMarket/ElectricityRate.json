@@ -2,12 +2,12 @@
     "@id": "dtmi:digitaltwins:ngsi_ld:cim:energyMarket:ElectricityRate;1",
     "@type": "Interface",
     "displayName": "ElectricityRate",
-    "comment": "the current rate for elctrical energy",
+    "comment": "the current rate for electrical energy",
     "contents": [
         {
             "@type": "Property",
-            "name": "rateType",
-            "comment": "The type of rate for the electrical energy",
+            "name": "priceType",
+            "comment": "The type of price for the electrical energy",
             "schema": {
                 "@type": "Enum",
                 "valueSchema": "string",
@@ -20,12 +20,14 @@
                     {
                         "name": "endCustomerPrice",
                         "displayName": "endCustomerPrice",
-                        "enumValue": "endCustomerPrice"
+                        "enumValue": "endCustomerPrice",
+                        "comment": "the current price for a end customer including VAT."
                     },
                     {
                         "name": "endCustomerNetPrice",
                         "displayName": "endCustomerNetPrice",
-                        "enumValue": "endCustomerNetPrice"
+                        "enumValue": "endCustomerNetPrice",
+                        "comment": "the current price for a end customer not including VAT."
                     }
                 ]
             },
@@ -33,9 +35,9 @@
         },
         {
             "@type": ["Property", "Energy"],
-            "name": "rate",
-            "comment": "rate of electrical work in euro/kwh",
-            "schema": "float",
+            "name": "price",
+            "comment": "price of electrical work in euro/kwh",
+            "schema": "double",
             "unit": "kilowattHour",
             "writable": true
         }
