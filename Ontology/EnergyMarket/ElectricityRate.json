@@ -13,9 +13,16 @@
                 "valueSchema": "string",
                 "enumValues": [
                     {
+                        "name": "marketNetPrice",
+                        "displayName": "marketNetPrice",
+                        "enumValue": "marketNetPrice",
+                        "comment": "the current net market price not including VAT."
+                    },
+                    {
                         "name": "marketPrice",
                         "displayName": "marketPrice",
-                        "enumValue": "marketPrice"
+                        "enumValue": "marketPrice",
+                        "comment": "the current market price including VAT."
                     },
                     {
                         "name": "endCustomerPrice",
@@ -34,12 +41,11 @@
             "writable": true
         },
         {
-            "@type": ["Property", "Energy"],
+            "@type": ["Telemetry", "Energy"],
             "name": "price",
-            "comment": "price of electrical work in euro/kwh",
+            "comment": "price of electrical work in (euro)ct/kwh",
             "schema": "double",
-            "unit": "kilowattHour",
-            "writable": true
+            "unit": "kilowattHour"
         }
     ],
     "@context": "dtmi:dtdl:context;2"
