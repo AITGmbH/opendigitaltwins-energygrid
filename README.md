@@ -1,3 +1,4 @@
+__! This project wil go into an archived status and will no longer be maintained !__
 
 # Digital Twins Definition Language (DTDL) ontology for Energy Grid 
 
